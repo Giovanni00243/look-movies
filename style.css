@@ -1,0 +1,49 @@
+body {
+      font-family: Arial, sans-serif;
+}
+
+h1 {
+      text-align: center;
+}
+
+form {
+      text-align: center;
+      margin-bottom: 20px;
+}
+
+input[type="text"] {
+      padding: 5px;
+      width: 300px;
+}
+
+button {
+      padding: 5px 10px;
+}
+
+#resultsContainer {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+}
+
+.movie {
+      width: 300px;
+      margin: 10px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+}
+
+.movie img {
+      width: 100%;
+      height: auto;
+      margin-bottom: 10px;
+}
+
+.movie h2 {
+      margin-bottom: 5px;
+}
+
+.movie p {
+      font-size: 14px;
+}
